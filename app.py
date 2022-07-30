@@ -19,7 +19,7 @@ def predict():
     
     output = floor(prediction[0])
 
-    return render_template('index.html', prediction_text=(f'Bike Count : {output*10}'))
+    return render_template('index.html', prediction_text=(f'Bike Count : {output*20}'))
 
 if __name__ == "__main__":
     app.run(debug=True)
